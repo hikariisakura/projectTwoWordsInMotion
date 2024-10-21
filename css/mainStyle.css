@@ -1,9 +1,22 @@
+/*  
+animation-name: ;
+animation-delay: ;
+animation-direction: ;
+animation-duration: ;
+animation-fill-mode: ;
+animation-iteration-count: ;
+animation-play-state: ;
+animation-timing-function: ; 
+*/
+
+
+
 * {
 
 	margin: 0;
 	padding: 0;
     font-family: "Gaegu", sans-serif;
-    font-size: 100px;
+   
     background-color: #131314;
     color: #dad9e0;
 
@@ -13,9 +26,13 @@
 
 body{
    margin: 16%;
+   
 
 }
 
+.main{
+    font-size: 100px;
+}
 
 .title{
  
