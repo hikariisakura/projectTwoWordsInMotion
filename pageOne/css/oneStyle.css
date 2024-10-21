@@ -1,0 +1,98 @@
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    animation-name:fromRight ;
+animation-delay: 0s;
+animation-direction:normal ;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: 1;
+animation-timing-function: ease-out ; 
+
+}
+
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    animation-name:fromLeft ;
+animation-delay: 0s;
+animation-direction:normal ;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: 1;
+animation-timing-function: ease-out ; 
+
+}
+
+
+
+#black:hover{
+
+    animation-name :introAnimate;
+    animation-direction: alternate-reverse;
+    animation-duration : 5s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes fromRight {
+
+    0%{ transform:translateX(1000px) ; -webkit-transform:translateX(1000px) ; -moz-transform:translateX(1000px) ; -ms-transform:translateX(1000px) ; -o-transform:translateX(1000px) ;
+opacity: 0;}
+    
+    100%{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        opacity: 1;}
+}
+
+@keyframes fromLeft {
+
+    0%{ transform:translateX(-1000px) ; -webkit-transform:translateX(-1000px) ; -moz-transform:translateX(-1000px) ; -ms-transform:translateX(-1000px) ; -o-transform:translateX(-1000px) ; opacity: 0;
+}
+    
+    100%{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        opacity: 1;}
+}
+
+
+
+
+
+
+@keyframes introAnimate {
+    from{
+        background-color: #131314;
+
+
+    }
+
+    to{
+        background-color: white;
+
+    }
+
+}
+
+
