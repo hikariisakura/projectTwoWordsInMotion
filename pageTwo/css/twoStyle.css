@@ -10,6 +10,7 @@
     animation-fill-mode: forwards;
     -webkit-animation: hinge 4s ease;
     background-color: transparent;
+    animation-iteration-count: infinite;
    
 }
 
