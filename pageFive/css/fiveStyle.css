@@ -7,8 +7,8 @@
     width: 100%;
     font-size: 70px;
     font-weight: 500;
-    animation: enter 2s ease-in ;
-    -webkit-animation: enter 2s ease-in ;
+    animation: enter 1.5s ease-in ;
+    -webkit-animation: enter 1.5s ease-in ;
 }
 
 .bravely, .crowTwo{

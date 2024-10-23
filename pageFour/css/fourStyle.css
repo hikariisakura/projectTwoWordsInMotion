@@ -5,11 +5,10 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
- 
 	font-size: 70px;
 	font-weight: 500;
-	animation: roll 1s ease-in both;
-	-webkit-animation: roll 1s ease-in both;
+	animation: roll 2s ease-in both;
+	-webkit-animation: roll 2s ease-in both;
 }
 
 .lineOne, .blackTwo, .crow{

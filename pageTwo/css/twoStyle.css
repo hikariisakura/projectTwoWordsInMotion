@@ -1,7 +1,32 @@
 
-.silent{
-    animation: flop 3s both;
-    -webkit-animation: flop 3s both;
+.lineOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 70px;
+    font-weight: 500;
+
+}
+
+.rolling {
+	animation: spin 1.5s ease-in both;
+	-webkit-animation: spin 1.5s ease-in both;
+}
+
+#silent{
+    color: #b7b899;
+}
+
+#silent:hover{
+    font-weight: normal;
+    font-size:60px ;
+    text-decoration: line-through;
+}
+
+.shatter {
+	animation: bottom 3s ease-in both;
+	-webkit-animation: bottom 3s ease-in both;
 }
 
 
@@ -11,26 +36,54 @@
    
 }
 
-.stones{
-  
-   
-    text-decoration: none;
-}
+
 
 .bits {
-    animation: hinge 4s ease;
-    animation-delay: 1s;
+    animation: hinge 4s ease 3s;
     animation-fill-mode: forwards;
-    -webkit-animation: hinge 4s ease;
+    -webkit-animation: hinge 4s ease 3s;
     background-color: transparent;
     animation-iteration-count: infinite;
-   
 }
 
-.stones:hover{
-    font-weight: 500;
-
+@keyframes spin {
+    0% {
+      transform: rotate(-360deg);
+      opacity: 0;
+      -webkit-transform: rotate(-360deg);
+      -moz-transform: rotate(-360deg);
+      -ms-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
 }
+    100% {
+      transform: rotate(0);
+      opacity: 1;
+      -webkit-transform: rotate(0);
+      -moz-transform: rotate(0);
+      -ms-transform: rotate(0);
+      -o-transform: rotate(0);
+}
+  }
+  
+
+  @keyframes bottom {
+    0% {
+      transform: translateY(1000px) translateX(1000px);
+      opacity: 0;
+      -webkit-transform: translateY(1000px) translateX(1000px);
+      -moz-transform: translateY(1000px) translateX(1000px);
+      -ms-transform: translateY(1000px) translateX(1000px);
+      -o-transform: translateY(1000px) translateX(1000px);
+}
+    100% {
+      transform: translateY(0) translateX(0);
+      opacity: 1;
+      -webkit-transform: translateY(0) translateX(0);
+      -moz-transform: translateY(0) translateX(0);
+      -ms-transform: translateY(0) translateX(0);
+      -o-transform: translateY(0) translateX(0);
+}
+  }
 
 
 
