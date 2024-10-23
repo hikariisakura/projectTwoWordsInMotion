@@ -6,8 +6,8 @@ song reused and rearranged by Maika Ye
 
 <h1>Overview</h1>
 
-This Song is a representation of what community meant: Belonging. Crows, especially in China, are seen as a bad omen and
-brings in bad luck. However in this song, it is seen in the perspective of the crow and how they felt. The crow is a symbol for outcasts in society and how they have equal rights to belong in a community just as much as anyone else.
+This Song is a representation of what community means: Belonging. Crows, especially in China, are seen as a bad omen and
+brings in bad luck. However, in this song, it is seen in the crow's perspective and how they felt. The crow symbolizes outcasts in society and how they should have equal rights to belong in a community just as much as anyone else.
 
 <h1>Acknowledgements</h1>
 
