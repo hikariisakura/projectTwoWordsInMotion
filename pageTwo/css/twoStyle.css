@@ -1,8 +1,21 @@
 
-.stone, .bits{
-    display: inline-block;
+.silent{
+    animation: flop 3s both;
+    -webkit-animation: flop 3s both;
 }
 
+
+.stones, .bits{
+    display: inline-block;
+    color: #838383;
+   
+}
+
+.stones{
+  
+   
+    text-decoration: none;
+}
 
 .bits {
     animation: hinge 4s ease;
@@ -12,6 +25,11 @@
     background-color: transparent;
     animation-iteration-count: infinite;
    
+}
+
+.stones:hover{
+    font-weight: 500;
+
 }
 
 
@@ -34,5 +52,7 @@ animation-timing-function: ease-in-out;}
 opacity: 0;}
       
 }
+
+
     
     

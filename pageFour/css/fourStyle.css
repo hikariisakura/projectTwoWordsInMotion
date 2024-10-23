@@ -1,0 +1,77 @@
+
+.all {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+ 
+	font-size: 70px;
+	font-weight: 500;
+	animation: roll 1s ease-in both;
+	-webkit-animation: roll 1s ease-in both;
+}
+
+.lineOne, .blackTwo, .crow{
+    display: inline-block;
+}
+
+
+#crows{
+    color: black;
+    font-size: 150px;
+    font-weight: 2000;
+}
+
+#crows:hover{
+    color: #e2929d;
+}
+
+
+.blackTwo{
+    color: black;
+
+}
+
+.heart, #crow:hover{
+    color: #e2929d;
+    animation: heartful 1s infinite ease-in-out;
+    -webkit-animation: heartful 1s infinite ease-in-out;
+}
+
+
+@keyframes roll {
+    0% {
+      transform: translateX(800px) rotate(540deg);
+      opacity: 0;
+      -webkit-transform: translateX(800px) rotate(540deg);
+      -moz-transform: translateX(800px) rotate(540deg);
+      -ms-transform: translateX(800px) rotate(540deg);
+      -o-transform: translateX(800px) rotate(540deg);
+}
+    100% {
+      transform: translateX(0) rotate(0deg);
+      opacity: 1;
+      -webkit-transform: translateX(0) rotate(0deg);
+      -moz-transform: translateX(0) rotate(0deg);
+      -ms-transform: translateX(0) rotate(0deg);
+      -o-transform: translateX(0) rotate(0deg);
+}
+  }
+
+  @keyframes heartful {
+    0% {
+      color: #e2929d;
+    }
+    50% {
+      color: #ff6565;
+    }
+
+    0% {
+        color: #e2929d;
+      }
+  }
+
+
+
+  
